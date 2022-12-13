@@ -18,7 +18,6 @@ Contents
 
 .. toctree::
    
-   1. Первый запуск и настройка платы
-   
+   1. First start
    usage
    api
