@@ -1,5 +1,0 @@
-First start
-===========
-
-.. autosummary::
-   :toctree: generated
