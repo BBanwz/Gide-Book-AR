@@ -18,6 +18,6 @@ Contents
 
 .. toctree::
    
-   First start
+   test
    usage
    api
