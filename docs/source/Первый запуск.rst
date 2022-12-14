@@ -60,7 +60,7 @@
 https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
 
 .. figure:: images/Рисунок1.2.png
-       :scale: 300 %
+       :scale: 200 %
        :align: center
        :alt: Образы для скачивания
 
