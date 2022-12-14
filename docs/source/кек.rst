@@ -1,7 +1,0 @@
-Приветствие
-===========
-
-.. autosummary::
-   :toctree: generated
-
-   lumache
