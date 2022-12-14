@@ -53,22 +53,9 @@
     | Вес                    | 14 г                                   |
     +------------------------+----------------------------------------+
 
-Creating recipes
-----------------
+Подбор дистрибутива и его настройка
+-----------------------------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+В качестве дистрибутива должен использоваться официальный образ для микрокомпьютеров nanopi Neo Air доступный по следующей ссылке:
+https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
 
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
