@@ -11,7 +11,7 @@
 .. figure:: images/Рисунок1.1.jpg
        :scale: 100 %
        :align: center
-       :alt: Альтернативный текст
+       :alt: Микроконтроллер NanoPi
 
        Рисунок 1.1 – Внешний вид микрокомпьютера NanoPi
 
@@ -59,3 +59,10 @@
 В качестве дистрибутива должен использоваться официальный образ для микрокомпьютеров nanopi Neo Air доступный по следующей ссылке:
 https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
 
+.. figure:: images/Рисунок1.2.jpg
+       :scale: 100 %
+       :align: center
+       :alt: Образы для скачивания
+
+       Рисунок 1.2 – Образы для скачивания
+       
