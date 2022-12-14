@@ -18,6 +18,6 @@ Contents
 
 .. toctree::
    
-   test
+   Первый запуск
    usage
    кек
