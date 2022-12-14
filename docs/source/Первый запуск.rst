@@ -1,0 +1,7 @@
+Первый запуск
+=============
+
+.. autosummary::
+   :toctree: generated
+
+   lumache
