@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'AR Gide book'
+copyright = '2022, CKTR'
+author = 'BBanwz'
 
 release = '0.1'
 version = '0.1.0'
