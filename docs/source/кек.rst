@@ -1,5 +1,5 @@
-КЕК
-===
+Приветствие
+===========
 
 .. autosummary::
    :toctree: generated
