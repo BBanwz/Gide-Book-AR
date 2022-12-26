@@ -132,7 +132,7 @@ https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
 4. Открываем терминал и прописываем команду: picocom -b 115200 /dev/ttyUSB0
 
 .. figure:: images/NanoPi/Рисунок 1.9.png
-       :scale: 50 %
+       :scale: 30 %
        :align: center
        :alt: Микроконтроллер NanoPi
        
