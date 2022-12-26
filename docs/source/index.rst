@@ -21,5 +21,5 @@ Contents
    :maxdepth: 3
    :numbered:
    
-   Linux
+   LINUX/index.rst
    Использование платы NanoPi
