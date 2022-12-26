@@ -60,7 +60,7 @@
 https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
 
 .. figure:: images/NanoPi/Рисунок 1.2.png
-       :scale: 100 %
+       :scale: 50 %
        :align: center
        :alt: Образы для скачивания
 
