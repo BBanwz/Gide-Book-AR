@@ -140,6 +140,8 @@ https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
 
 5. После подключения вводится команда su root и вводится пароль fa
 
+.. important:: Логин для входа ''**root**'' пароль ''fa''
+
 .. figure:: images/NanoPi/Рисунок 1.10.png
        :scale: 100 %
        :align: center
