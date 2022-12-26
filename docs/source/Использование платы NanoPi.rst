@@ -71,6 +71,9 @@ https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
 Для установки и настройки образа ОС необходимо:
 
 1. SD-карта, на которую будет установлен образ ОС, с помощью программы BalenaEtcher и ожидать загрузки и проверки образа:
+
+.. attention:: Для корректной работы ОС на плате, необходимо использовать SD карту объемом 8Гб
+
        * Выбираем ранее скачанный образ в пункте, flash from file
        
 .. figure:: images/NanoPi/Рисунок 1.3.png
@@ -78,7 +81,7 @@ https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
        :align: center
        :alt: Микроконтроллер NanoPi
 
-       Рисунок 1.3 – Внешний вид микрокомпьютера NanoPi
+       Рисунок 1.3 – Интерфейс программы BalenaEtcher
        
        
        * Выбираем носитель, на который будет производится прошивка нашего образа
@@ -88,14 +91,14 @@ https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
        :align: center
        :alt: Микроконтроллер NanoPi
 
-       Рисунок 1.4 – Внешний вид микрокомпьютера NanoPi
+       Рисунок 1.4 – Выбор носителя для записи
        
 .. figure:: images/NanoPi/Рисунок 1.5.png
        :scale: 100 %
        :align: center
        :alt: Микроконтроллер NanoPi
 
-       Рисунок 1.5 – Внешний вид микрокомпьютера NanoPi
+       Рисунок 1.5 – Список с возможными носителями
        
        
        * Нажимаем кнопку Flash!, и ожидаем окончания прошивки
@@ -105,14 +108,14 @@ https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
        :align: center
        :alt: Микроконтроллер NanoPi
 
-       Рисунок 1.6 – Внешний вид микрокомпьютера NanoPi
+       Рисунок 1.6 – Кнопка Flash!
        
 .. figure:: images/NanoPi/Рисунок 1.7.png
        :scale: 100 %
        :align: center
        :alt: Микроконтроллер NanoPi
 
-       Рисунок 1.7 – Внешний вид микрокомпьютера NanoPi
+       Рисунок 1.7 – Процесс загрузки образа ОС на карту памяти 
        
        
        * После успешной прошивки можно вынуть sd карту и вставить её в нашу плату
@@ -122,7 +125,7 @@ https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
        :align: center
        :alt: Микроконтроллер NanoPi
        
-       Рисунок 1.8 – Внешний вид микрокомпьютера NanoPi
+       Рисунок 1.8 – Экран успешной загрузки
        
 #. Вставляем sd-карту в микрокомпьютер и устанавливаем на плату расширитель
 #. подключаем расширительную плату к компьютеру с опеционнной системой на базе linux
