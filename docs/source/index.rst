@@ -19,5 +19,6 @@ Contents
 
 .. toctree::
    
-   Первый запуск
+   
    Linux
+   Использование платы NanoPi
