@@ -59,7 +59,7 @@
 В качестве дистрибутива должен использоваться официальный образ для микрокомпьютеров nanopi Neo Air доступный по следующей ссылке:
 https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
 
-.. figure:: images/Рисунок1.2.png
+.. figure:: images/NanoPi/Рисунок 1.2.png
        :scale: 100 %
        :align: center
        :alt: Образы для скачивания
