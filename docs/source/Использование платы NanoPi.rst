@@ -143,7 +143,7 @@ https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
 .. important:: Логин для входа ``root`` пароль ``fa``
 
 .. figure:: images/NanoPi/Рисунок 1.10.png
-       :scale: 100 %
+       :scale: 40 %
        :align: center
        :alt: Микроконтроллер NanoPi
        
@@ -152,7 +152,7 @@ https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
 6. Вводится в консоль команда npi-config
 
 .. figure:: images/NanoPi/Рисунок 1.11.png
-       :scale: 100 %
+       :scale: 40 %
        :align: center
        :alt: Микроконтроллер NanoPi
        
@@ -161,7 +161,7 @@ https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
 7. После этого в меню выбирается пункт “Interfacing options”
 
 .. figure:: images/NanoPi/Рисунок 1.12.png
-       :scale: 100 %
+       :scale: 40 %
        :align: center
        :alt: Микроконтроллер NanoPi
        
@@ -170,14 +170,14 @@ https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
 8. В данном подменю включаем функцию SSH для удаленного управления через Wi-Fi
 
 .. figure:: images/NanoPi/Рисунок 1.13.png
-       :scale: 100 %
+       :scale: 40 %
        :align: center
        :alt: Микроконтроллер NanoPi
        
        Рисунок 1.13 – Включение SSH
        
 .. figure:: images/NanoPi/Рисунок 1.14.png
-       :scale: 100 %
+       :scale: 40 %
        :align: center
        :alt: Микроконтроллер NanoPi
        
@@ -187,7 +187,7 @@ https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
 10. После включения Wi-fi, сканируем сети с помощью команды nmcli dev wifi
 
 .. figure:: images/NanoPi/Рисунок 1.15.png
-       :scale: 100 %
+       :scale: 40 %
        :align: center
        :alt: Микроконтроллер NanoPi
        
@@ -196,7 +196,7 @@ https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
 11. С помощью команды nmcli dev connect “SSID” password “PASSWORD” ifname wlan0
 
 .. figure:: images/NanoPi/Рисунок 1.16.png
-       :scale: 100 %
+       :scale: 40 %
        :align: center
        :alt: Микроконтроллер NanoPi
        
