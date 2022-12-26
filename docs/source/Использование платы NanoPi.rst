@@ -80,6 +80,7 @@ https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
 
        Рисунок 1.3 – Внешний вид микрокомпьютера NanoPi
        
+       
        * Выбираем носитель, на который будет производится прошивка нашего образа
        
 .. figure:: images/NanoPi/Рисунок 1.4.png
@@ -96,6 +97,7 @@ https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
 
        Рисунок 1.5 – Внешний вид микрокомпьютера NanoPi
        
+       
        * Нажимаем кнопку Flash!, и ожидаем окончания прошивки
        
 .. figure:: images/NanoPi/Рисунок 1.6.png
@@ -111,6 +113,7 @@ https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
        :alt: Микроконтроллер NanoPi
 
        Рисунок 1.7 – Внешний вид микрокомпьютера NanoPi
+       
        
        * После успешной прошивки можно вынуть sd карту и вставить её в нашу плату
        
