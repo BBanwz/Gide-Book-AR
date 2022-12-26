@@ -128,15 +128,77 @@ https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
        Рисунок 1.8 – Экран успешной загрузки
        
 2. Вставляем sd-карту в микрокомпьютер и устанавливаем на плату расширитель
-#. подключаем расширительную плату к компьютеру с опеционнной системой на базе linux
-#. Открываем терминал и прописываем команду: picocom -b 115200 /dev/ttyUSB0
-#. После подключения вводится команда su root и вводится пароль fa
-#. Вводится в консоль команда npi-config
-#. После этого в меню выбирается пункт “Interfacing options”
-#. В данном подменю включаем функцию SSH для удаленного управления через Wi-Fi
-#. Необходимо выйти из меню и ввести в консоли nmcli r wifi on
-#. После включения Wi-fi, сканируем сети с помощью команды nmcli dev wifi
-#. С помощью команды nmcli dev connect “SSID” password “PASSWORD” ifname wlan0
+3. подключаем расширительную плату к компьютеру с опеционнной системой на базе linux
+4. Открываем терминал и прописываем команду: picocom -b 115200 /dev/ttyUSB0
+
+.. figure:: images/NanoPi/Рисунок 1.9.png
+       :scale: 100 %
+       :align: center
+       :alt: Микроконтроллер NanoPi
+       
+       Рисунок 1.9 – Консоль с командой picocom
+
+5. После подключения вводится команда su root и вводится пароль fa
+
+.. figure:: images/NanoPi/Рисунок 1.10.png
+       :scale: 100 %
+       :align: center
+       :alt: Микроконтроллер NanoPi
+       
+       Рисунок 1.10 – Экран приветствия NanoPi
+
+6. Вводится в консоль команда npi-config
+
+.. figure:: images/NanoPi/Рисунок 1.11.png
+       :scale: 100 %
+       :align: center
+       :alt: Микроконтроллер NanoPi
+       
+       Рисунок 1.11 – Консоль с командой npi
+
+7. После этого в меню выбирается пункт “Interfacing options”
+
+.. figure:: images/NanoPi/Рисунок 1.12.png
+       :scale: 100 %
+       :align: center
+       :alt: Микроконтроллер NanoPi
+       
+       Рисунок 1.12 – Окно выбора npi-config
+
+8. В данном подменю включаем функцию SSH для удаленного управления через Wi-Fi
+
+.. figure:: images/NanoPi/Рисунок 1.13.png
+       :scale: 100 %
+       :align: center
+       :alt: Микроконтроллер NanoPi
+       
+       Рисунок 1.13 – Включение SSH
+       
+.. figure:: images/NanoPi/Рисунок 1.14.png
+       :scale: 100 %
+       :align: center
+       :alt: Микроконтроллер NanoPi
+       
+       Рисунок 1.14 – Подтверждение выбора
+
+9. Необходимо выйти из меню и ввести в консоли nmcli r wifi on
+10. После включения Wi-fi, сканируем сети с помощью команды nmcli dev wifi
+
+.. figure:: images/NanoPi/Рисунок 1.15.png
+       :scale: 100 %
+       :align: center
+       :alt: Микроконтроллер NanoPi
+       
+       Рисунок 1.15 – Отображение доступных сетей для подключения
+
+11. С помощью команды nmcli dev connect “SSID” password “PASSWORD” ifname wlan0
+
+.. figure:: images/NanoPi/Рисунок 1.16.png
+       :scale: 100 %
+       :align: center
+       :alt: Микроконтроллер NanoPi
+       
+       Рисунок 1.16 – Подключение к Wi-Fi сети
 
 После выполнения данных пунктов удалённое подключение к плате будет настроено
 
