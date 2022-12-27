@@ -39,5 +39,3 @@ Contents
    OpenCV/index.rst
    ROS/index.rst
    WebServer/index.rst
-   
-   Использование платы NanoPi
