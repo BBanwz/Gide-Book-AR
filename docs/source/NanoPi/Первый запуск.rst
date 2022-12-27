@@ -156,7 +156,7 @@ https://drive.google.com/drive/folders/1ws6rPIIQoS4khtabX0ohfg5JTQ0YywOv
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://youtu.be/DysoZmmsKHY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="https://youtu.be/h77eA2jTfvo" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
 .. tip:: С помощью команды ifconfig можно узнать ip адрес платы. Для удаленного подключения к плате необходимо выполнить команду: ssh root@”Ip адрес платы”.
