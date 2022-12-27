@@ -22,4 +22,11 @@ Contents
    :numbered:
    
    LINUX/index.rst
+   NanoPi/index.rst
+   Python/index.rst
+   Arduino/index.rst
+   OpenCV/index.rst
+   ROS/index.rst
+   WebServer/index.rst
+   
    Использование платы NanoPi
