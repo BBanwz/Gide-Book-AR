@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'AR Gide book'
+project = 'AR Guide book'
 copyright = '2022, CKTR'
 author = 'BBanwz'
 
