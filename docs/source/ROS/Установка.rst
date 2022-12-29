@@ -1,2 +1,19 @@
 Установка
 =========
+
+Для использования концепций ROS в среде разработки Arduino IDE совместно с микроконтроллерами Arduino требуется скомпилировать библиотеку ros_lib и переместить ее в папку с библиотеками Arduino.
+Чтобы собрать библиотеку, требуется:
+
+Установить пакеты ROS для взаимодействия с Arduino:
+sudo apt-get install ros-noetic-rosserial-arduino
+sudo apt-get install ros-noetic-rosserial
+
+Сгенерировать библиотеку:
+В первой консоли надо запустить roscore
+
+Во второй:
+cd Arduino/libraries
+rm -rf ros_lib
+rosrun rosserial_arduino make_libraries.py .
+
+После проведения этих операций в списке библиотек Arduino появится ros_lib и возможно будет скомпилировать код и загрузить в плату.
