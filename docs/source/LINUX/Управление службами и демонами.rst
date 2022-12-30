@@ -247,7 +247,8 @@ systemctl
 Если вы хотите отобразить одно свойство, можно передать флаг -p с именем свойства. Например, чтобы увидеть конфликты, которые есть у модуля sshd.service, можно ввести следующее:
 ::
  systemctl show sshd.service -p Conflicts
- 
+
+Вывод:
 ::
  Output
  Conflicts=shutdown.target
@@ -262,7 +263,7 @@ systemctl
 Если вы проверите list-unit-files, вы увидите, что служба теперь указана как замаскированная:
 ::
  systemctl list-unit-files
- 
+Вывод:
 ::
  Output
  . . .
@@ -281,7 +282,7 @@ systemctl
 ::
  sudo systemctl start nginx.service
  
-
+Вывод:
 ::
  Output
  Failed to start nginx.service: Unit nginx.service is masked.
@@ -327,12 +328,12 @@ sudo systemctl edit nginx.service
 ::
  systemctl get-default
 
+Вывод:
 ::
  Output
  multi-user.target
 
 Если вы хотите задать другую цель по умолчанию, можно использовать set-default. Например, если у вас установлен графический рабочий стол и вы хотите загрузить систему в него по умолчанию, можно изменить цель по умолчанию соответственно:
-
 ::
  sudo systemctl set-default graphical.target
  
