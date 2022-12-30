@@ -96,9 +96,9 @@ cd ../..
 И так до бесконечности. Можно использовать файл, лежащий на уровне выше или просто сменить директорию.
 Обратите внимание, что команда для линукса отличается от команды для windows — слеш обратный. В windows это «cd ..\..», а в линуксе именно «cd ../..».
 
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe src="https://www.youtube.com/embed/OMa5AyJ6cBo" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
+</div>
 
 Как создать директорию
 ----------------------
